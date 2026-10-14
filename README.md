@@ -1,3 +1,8 @@
+
+<p align="center">
+  <img src="./Osama_Abu_Saleh_Animated.svg" alt="Osama Abu Saleh" width="100%">
+</p>
+
 # 👋 Hi, I'm Eng.Osama Abu Saleh | م. أسامة أبو صالح
 
 ### Microsoft 365 • PowerShell • Microsoft Graph
