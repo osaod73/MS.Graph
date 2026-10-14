@@ -1,4 +1,3 @@
-https://github.com/osaod73/MS.Graph/blob/main/Osama_Abu_Saleh_Animated.svg
 # 👋 Hi, I'm Eng.Osama Abu Saleh | م. أسامة أبو صالح
 
 ### Microsoft 365 • PowerShell • Microsoft Graph
