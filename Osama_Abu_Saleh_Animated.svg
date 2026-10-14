@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Osama Abu Saleh — Animated Name</title>
+  <desc id="desc">A glowing animated name with a moving blue-purple gradient and subtle sparkles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07152f"/>
+      <stop offset="55%" stop-color="#111b45"/>
+      <stop offset="100%" stop-color="#241044"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58e6ff"><animate attributeName="stop-color" values="#58e6ff;#a78bfa;#ff8bd1;#58e6ff" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="50%" stop-color="#9c8cff"><animate attributeName="stop-color" values="#9c8cff;#ff8bd1;#58e6ff;#9c8cff" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="100%" stop-color="#f5fbff"><animate attributeName="stop-color" values="#f5fbff;#58e6ff;#a78bfa;#f5fbff" dur="6s" repeatCount="indefinite"/></stop>
+      <animate attributeName="x1" values="0;1;0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="orb"><stop offset="0" stop-color="#61e8ff" stop-opacity=".45"/><stop offset="1" stop-color="#61e8ff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <circle cx="170" cy="70" r="150" fill="url(#orb)"><animate attributeName="cx" values="170;1030;170" dur="12s" repeatCount="indefinite"/></circle>
+  <circle cx="1000" cy="240" r="170" fill="url(#orb)" opacity=".65"><animate attributeName="cy" values="240;60;240" dur="10s" repeatCount="indefinite"/></circle>
+  <g fill="#d8f8ff">
+    <circle cx="105" cy="102" r="2.5"><animate attributeName="opacity" values=".15;1;.15" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="83" r="2"><animate attributeName="opacity" values="1;.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="970" cy="222" r="2.5"><animate attributeName="opacity" values=".2;1;.2" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="230" r="2"><animate attributeName="opacity" values="1;.2;1" dur="3.6s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="600" y="158" text-anchor="middle" dominant-baseline="middle"
+        font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="76" font-weight="800"
+        letter-spacing="1.5" fill="url(#textGradient)" filter="url(#glow)">Osama Abu Saleh
+    <animate attributeName="opacity" values=".82;1;.82" dur="3.5s" repeatCount="indefinite"/>
+  </text>
+  <path d="M340 211 Q600 230 860 211" fill="none" stroke="url(#textGradient)" stroke-width="2.5" stroke-linecap="round" opacity=".85" stroke-dasharray="520" stroke-dashoffset="520">
+    <animate attributeName="stroke-dashoffset" values="520;0;0;520" keyTimes="0;.35;.75;1" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <text x="600" y="250" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="16" font-weight="500" letter-spacing="5" fill="#c8d8ff" opacity=".8">MICROSOFT 365  •  POWERSHELL  •  GRAPH</text>
+</svg>
